@@ -1,0 +1,1 @@
+For checkpoint 4 of Lab 8 of RPI Open Source Software course. This repository is a copy the CMake Step 5 example I generated in the Build Module to a "clean" directory outside of the CMake repository. 
