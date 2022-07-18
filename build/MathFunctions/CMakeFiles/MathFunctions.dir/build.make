@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5
+CMAKE_SOURCE_DIR = /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build
@@ -58,17 +58,17 @@ include MathFunctions/CMakeFiles/MathFunctions.dir/progress.make
 include MathFunctions/CMakeFiles/MathFunctions.dir/flags.make
 
 MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o: MathFunctions/CMakeFiles/MathFunctions.dir/flags.make
-MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o: /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/MathFunctions/mysqrt.cxx
+MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o: ../MathFunctions/mysqrt.cxx
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o"
-	cd /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/MathFunctions && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MathFunctions.dir/mysqrt.cxx.o -c /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/MathFunctions/mysqrt.cxx
+	cd /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/MathFunctions && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MathFunctions.dir/mysqrt.cxx.o -c /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/MathFunctions/mysqrt.cxx
 
 MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathFunctions.dir/mysqrt.cxx.i"
-	cd /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/MathFunctions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/MathFunctions/mysqrt.cxx > CMakeFiles/MathFunctions.dir/mysqrt.cxx.i
+	cd /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/MathFunctions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/MathFunctions/mysqrt.cxx > CMakeFiles/MathFunctions.dir/mysqrt.cxx.i
 
 MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathFunctions.dir/mysqrt.cxx.s"
-	cd /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/MathFunctions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/MathFunctions/mysqrt.cxx -o CMakeFiles/MathFunctions.dir/mysqrt.cxx.s
+	cd /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/MathFunctions && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/MathFunctions/mysqrt.cxx -o CMakeFiles/MathFunctions.dir/mysqrt.cxx.s
 
 # Object files for target MathFunctions
 MathFunctions_OBJECTS = \
@@ -94,6 +94,6 @@ MathFunctions/CMakeFiles/MathFunctions.dir/clean:
 .PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/clean
 
 MathFunctions/CMakeFiles/MathFunctions.dir/depend:
-	cd /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5 /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/MathFunctions /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/MathFunctions /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/MathFunctions/CMakeFiles/MathFunctions.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4 /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/MathFunctions /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/MathFunctions /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/MathFunctions/CMakeFiles/MathFunctions.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/depend
 

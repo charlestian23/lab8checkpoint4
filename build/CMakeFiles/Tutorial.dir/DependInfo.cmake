@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/tutorial.cxx" "/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/CMakeFiles/Tutorial.dir/tutorial.cxx.o"
+  "/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/tutorial.cxx" "/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/CMakeFiles/Tutorial.dir/tutorial.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
-  "/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/MathFunctions"
+  "../MathFunctions"
   )
 
 # Targets to which this target links.

@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5
+CMAKE_SOURCE_DIR = /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build
@@ -58,17 +58,17 @@ include CMakeFiles/Tutorial.dir/progress.make
 include CMakeFiles/Tutorial.dir/flags.make
 
 CMakeFiles/Tutorial.dir/tutorial.cxx.o: CMakeFiles/Tutorial.dir/flags.make
-CMakeFiles/Tutorial.dir/tutorial.cxx.o: /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/tutorial.cxx
+CMakeFiles/Tutorial.dir/tutorial.cxx.o: ../tutorial.cxx
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tutorial.dir/tutorial.cxx.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tutorial.dir/tutorial.cxx.o -c /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/tutorial.cxx
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tutorial.dir/tutorial.cxx.o -c /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/tutorial.cxx
 
 CMakeFiles/Tutorial.dir/tutorial.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tutorial.dir/tutorial.cxx.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/tutorial.cxx > CMakeFiles/Tutorial.dir/tutorial.cxx.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/tutorial.cxx > CMakeFiles/Tutorial.dir/tutorial.cxx.i
 
 CMakeFiles/Tutorial.dir/tutorial.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tutorial.dir/tutorial.cxx.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/tutorial.cxx -o CMakeFiles/Tutorial.dir/tutorial.cxx.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/tutorial.cxx -o CMakeFiles/Tutorial.dir/tutorial.cxx.s
 
 # Object files for target Tutorial
 Tutorial_OBJECTS = \
@@ -94,6 +94,6 @@ CMakeFiles/Tutorial.dir/clean:
 .PHONY : CMakeFiles/Tutorial.dir/clean
 
 CMakeFiles/Tutorial.dir/depend:
-	cd /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5 /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5 /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/CMakeFiles/Tutorial.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4 /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4 /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build/CMakeFiles/Tutorial.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Tutorial.dir/depend
 

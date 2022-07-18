@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build -I/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/MathFunctions 
+CXX_INCLUDES = -I/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/build -I/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/MathFunctions 
 

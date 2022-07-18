@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/MathFunctions/MathFunctions.h
+/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/MathFunctions/MathFunctions.h
 
-/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/MathFunctions/mysqrt.cxx
+/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/MathFunctions/mysqrt.cxx
 iostream
 -
 MathFunctions.h
-/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/MathFunctions/MathFunctions.h
+/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/MathFunctions/MathFunctions.h
 

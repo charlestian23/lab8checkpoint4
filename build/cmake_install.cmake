@@ -1,4 +1,4 @@
-# Install script for directory: /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5
+# Install script for directory: /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

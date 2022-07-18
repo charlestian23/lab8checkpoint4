@@ -1,4 +1,4 @@
-# Install script for directory: /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/MathFunctions
+# Install script for directory: /home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/MathFunctions
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,6 +42,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/MathFunctions/MathFunctions.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/MathFunctions/MathFunctions.h")
 endif()
 

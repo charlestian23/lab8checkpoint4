@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/MathFunctions/MathFunctions.h
+../MathFunctions/MathFunctions.h
 
-/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/tutorial.cxx
+/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/tutorial.cxx
 cmath
 -
 iostream
@@ -16,9 +16,9 @@ iostream
 string
 -
 TutorialConfig.h
-/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/TutorialConfig.h
+/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/TutorialConfig.h
 MathFunctions.h
-/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/Step5/MathFunctions.h
+/home/charles/OpenSourceSoftware/cmake-lab8-checkpoint4/MathFunctions.h
 
 TutorialConfig.h
 
